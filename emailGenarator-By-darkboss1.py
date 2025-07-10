@@ -230,9 +230,6 @@ while True:
 			emails.append(x + "@" + dom)
 
 
-	# Simple Regex for syntax checking
-	regex = '^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,})$'
-
 	# Email addresses verification (Bulk syntax checking)
 	for n in emails:
 
